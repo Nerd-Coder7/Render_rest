@@ -6,7 +6,7 @@ app.use(express.json());
 app.use("/",(req,res)=>{
   res.send("Iam listening")
 })
-app.get("/shivam,(req,res)=>{
+app.get("/shivam",(req,res)=>{
         res.send("Shivam you are a good boy")
         })
 app.listen(8080,()=>{
